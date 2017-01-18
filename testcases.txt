@@ -1,0 +1,3 @@
+Workload E does x mallocs followed by x frees, where x starts at 1 and increases up to 128.  We chose this workload in order to try out various groups of mallocs and frees in a row.
+
+Workload F is similar to workload F, but it does powers of two.  This was chosen in order to see what would happen with rapidly increasing group sizes.
